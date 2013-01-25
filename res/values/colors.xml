@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_backcolor">#aa000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#FF00ff00</color>
+    <color name="yellow">#FF0000ff</color>
+    <color name="login_bg_color">#FF016453</color>
+    <color name="guide_layoutbg_color">#C9E4D6</color>
+    <!-- 最新添加 -->
+    <color name="black">#000000</color>
+    <color name="title_bar_bgcolor">#383838</color>
+    <color name="dialog_bgcolor">#00333333</color>
+    <color name="window_username_color">@color/white</color>
+    <color name="dialog_reasontxt_bg_color">#e0e0e0</color>
+    <color name="animation_layout">#99ffffff</color>
+    <color name="transparent">#9000</color>
+    <color name="separator">#b3b3b3</color>
+
+</resources>
