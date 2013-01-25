@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/topbar_return_pressed_but" android:state_pressed="true"/>
+    <!-- default/unchecked -->
+    <item android:drawable="@drawable/topbar_return_btn"/>
+    <!-- default/unchecked -->
+
+</selector>

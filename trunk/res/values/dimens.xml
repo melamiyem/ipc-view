@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 下拉刷新 -->
+    <dimen name="subtitle_top_margin">5dp</dimen>
+    <dimen name="subtitle_bottom_margin">5dp</dimen>
+    <dimen name="subtitle_padding">10dp</dimen>
+    <dimen name="headline_bottom_margin">5dp</dimen>
+    <dimen name="headline_padding_top">10dp</dimen>
+    <dimen name="headline_padding_bottom">10dp</dimen>
+
+    <!-- dialong -->
+    <dimen name="dialog_margin_left">15dp</dimen>
+    <dimen name="dialog_margin_right">15dp</dimen>
+    <dimen name="dialog_padding">20dp</dimen>
+    <dimen name="dialog_listitem_height">65px</dimen>
+    <dimen name="dialog_listitem_paddleft">15px</dimen>
+    <!-- btn的高度 -->
+    <dimen name="btn_height">68px</dimen>
+    <!-- 好友相关 -->
+    <dimen name="dialog_text_size">18dip</dimen>
+    <dimen name="info_name_size">27dip</dimen>
+    <dimen name="top_bar_title_size">30px</dimen>
+
+    <dimen name="item_height">97px</dimen>
+    <dimen name="setting_item_height">15px</dimen>
+
+    <dimen name="text_size_21px">21px</dimen>
+    <dimen name="text_size_24px">24px</dimen>
+    <dimen name="text_size_30px">30px</dimen>
+</resources>
