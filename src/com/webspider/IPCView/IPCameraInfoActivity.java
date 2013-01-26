@@ -23,7 +23,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class IPCameraInfoActivity extends Activity implements OnClickListener{
+public class IPCameraInfoActivity extends IPCNoTitleActivity implements OnClickListener{
 	protected ArrayList<Map<String, String>> listData;
 	protected ArrayList<Map<String, String>> splitData; 
 	private CameraItem mCameraItem;
@@ -31,7 +31,6 @@ public class IPCameraInfoActivity extends Activity implements OnClickListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.camerasetting);
 		
 		mCameraItem = (CameraItem)getIntent().getSerializableExtra("camera_info");

@@ -38,6 +38,7 @@ public class IPCApp extends Application {
 			item = new CameraItem();
 			item.index = i;
 			item.name = "Camera " + i;
+			item.address = "192.168.199.154";
 			item.detail = "something for camera " + i;
 			mycameras.add(item);
 		}
