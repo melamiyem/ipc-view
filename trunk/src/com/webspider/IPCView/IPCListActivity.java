@@ -2,6 +2,7 @@ package com.webspider.IPCView;
 
 import java.util.ArrayList;
 
+import com.webspider.IPCView.IPCListActivity.CameraAdapter.ViewHolder;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -86,11 +87,20 @@ public class IPCListActivity  extends Activity implements OnClickListener,
 
 
 	@Override
-	public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+	public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 		// TODO Auto-generated method stub
-		
+		if (v.getTag() instanceof ViewHolder) {
+			ViewHolder holder = (ViewHolder) v.getTag();
+			if (holder != null){
+				CameraItem item = (CameraItem)holder.cameraview.getTag();
+				Intent intent = new Intent(IPCListActivity.this, IPCPlayerActivity.class);
+				intent.putExtra("camera_info", item);
+				startActivity(intent);				
+			}
+		}
 	}
-	public class CameraAdapter extends BaseAdapter {
+
+	class CameraAdapter extends BaseAdapter {
 		protected Context context;
 		protected LayoutInflater mInflater;
 		
