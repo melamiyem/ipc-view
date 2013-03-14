@@ -14,8 +14,6 @@ import com.media.ffmpeg.config.FFMpegConfig;
 public class FFMpeg {
 	
 	public static final String[] LIBS = new String[] {
-//		"jnivideo",
-//		"ffmpeg_jni"	// ffmpeg libs compiled to jni lib
 		"mediaplay",	// audio/video
 		"mediacore"	// ffmpeg libs compiled to jni lib
 	};
